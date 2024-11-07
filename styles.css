@@ -1,0 +1,96 @@
+div{
+    text-align: justify;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+}
+#tarolo{
+    background-color: pink;
+    padding: 10px;
+    background-size: cover;
+    text-align: justify;
+}
+img{
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    height:250px ;
+    margin: 10px;
+    float: none;
+}
+body{
+    
+    background-size: auto;
+    width: 80%;
+    max-width: 800%;
+    margin: auto;
+    background-color: rgba(245, 245, 220, 0.76);
+    text-align: justify;
+    
+}
+.tartalom {
+    padding: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+.nav {
+    background-color: #e24fa0;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+}
+.lablec_nev{
+    text-align: center;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+@media screen and (max-width:650px) {
+    body{
+        width: 100%;
+        font-size:calc(12px + 2vw);
+    }
+    .menu ul{
+        
+        grid-template-columns: 1fr 1fr ;
+       
+        
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    body{
+        width: 100%;
+        font-size:calc(12px + 4vw);
+    }
+    .menu ul{
+        
+        grid-template-columns: 1fr  ;
+       
+        
+    }
+    .nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .tartalom {
+        padding: 15px;
+    }
+
+
+    .lablec .kepek img {
+        width: 120px;
+        height: 120px;
+    }
+}
+    
